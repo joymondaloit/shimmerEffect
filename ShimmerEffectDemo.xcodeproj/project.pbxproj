@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		A8B21B34211C1BF500782B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B21B33211C1BF500782B6A /* AppDelegate.swift */; };
-		A8B21B36211C1BF500782B6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B21B35211C1BF500782B6A /* ViewController.swift */; };
-		A8B21B39211C1BF500782B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B21B37211C1BF500782B6A /* Main.storyboard */; };
 		A8B21B3B211C1BF600782B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B21B3A211C1BF600782B6A /* Assets.xcassets */; };
 		A8B21B3E211C1BF600782B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B21B3C211C1BF600782B6A /* LaunchScreen.storyboard */; };
+		A8B21B47211C1C6200782B6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B21B45211C1C6200782B6A /* ViewController.swift */; };
+		A8B21B48211C1C6200782B6A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8B21B46211C1C6200782B6A /* ViewController.xib */; };
+		A8B21B4A211C1C8800782B6A /* UIView+Extension+Simmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B21B49211C1C8800782B6A /* UIView+Extension+Simmer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A8B21B30211C1BF500782B6A /* ShimmerEffectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimmerEffectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B21B33211C1BF500782B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8B21B35211C1BF500782B6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A8B21B38211C1BF500782B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8B21B3A211C1BF600782B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8B21B3D211C1BF600782B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8B21B3F211C1BF600782B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8B21B45211C1C6200782B6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8B21B46211C1C6200782B6A /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		A8B21B49211C1C8800782B6A /* UIView+Extension+Simmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension+Simmer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				A8B21B33211C1BF500782B6A /* AppDelegate.swift */,
-				A8B21B35211C1BF500782B6A /* ViewController.swift */,
-				A8B21B37211C1BF500782B6A /* Main.storyboard */,
+				A8B21B45211C1C6200782B6A /* ViewController.swift */,
+				A8B21B46211C1C6200782B6A /* ViewController.xib */,
+				A8B21B49211C1C8800782B6A /* UIView+Extension+Simmer.swift */,
 				A8B21B3A211C1BF600782B6A /* Assets.xcassets */,
 				A8B21B3C211C1BF600782B6A /* LaunchScreen.storyboard */,
 				A8B21B3F211C1BF600782B6A /* Info.plist */,
@@ -123,8 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8B21B3E211C1BF600782B6A /* LaunchScreen.storyboard in Resources */,
+				A8B21B48211C1C6200782B6A /* ViewController.xib in Resources */,
 				A8B21B3B211C1BF600782B6A /* Assets.xcassets in Resources */,
-				A8B21B39211C1BF500782B6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8B21B36211C1BF500782B6A /* ViewController.swift in Sources */,
+				A8B21B4A211C1C8800782B6A /* UIView+Extension+Simmer.swift in Sources */,
+				A8B21B47211C1C6200782B6A /* ViewController.swift in Sources */,
 				A8B21B34211C1BF500782B6A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A8B21B37211C1BF500782B6A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8B21B38211C1BF500782B6A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A8B21B3C211C1BF600782B6A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,7 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 247SKTDF4X;
 				INFOPLIST_FILE = ShimmerEffectDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -289,6 +285,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.inadev.-.ShimmerEffectDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3480bdbc-dd9a-4115-8a7d-36cfec31ba51";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Development Certificate for all devices";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,7 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 247SKTDF4X;
 				INFOPLIST_FILE = ShimmerEffectDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,6 +305,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.inadev.-.ShimmerEffectDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3480bdbc-dd9a-4115-8a7d-36cfec31ba51";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Development Certificate for all devices";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
